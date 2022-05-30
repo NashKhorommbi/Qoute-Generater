@@ -1,0 +1,145 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.big {
+	width: 1000px;
+	margin:0 auto;
+}
+.container2 {
+	width: 1000px;
+	margin:0 auto;
+	background-color: grey;
+    height: 700px;
+    position: absolute;
+    display: none;
+    text-align: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.container2 .header {
+	position: fixed;
+	height:60px;
+	width: 1000px;
+	margin:0 auto;
+	background-color: green;
+	z-index: 12;
+}
+
+.wrapper {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.con2 {
+	position: relative;
+	top: 100px;
+}
+
+#greet {
+	float: left;
+	line-height: 60px;
+}
+
+.logo {
+	float: right;
+	line-height: 60px;
+}
+
+
+.container {
+	width: 1000px;
+	margin:0 auto;
+	background-color: grey;
+    height: 700px;
+    position: absolute;
+
+}
+
+.courses {
+  
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+}
+
+
+span {
+    font-style: italic;;
+    font-size: 20px;
+    font-weight: 100;
+}
+.courses > div {
+	width:100%;
+	background-color: red;
+	padding: 8px;
+	margin: 15px 0;
+	justify-content: space-around;
+}
+
+.course p {
+	margin: 20px 0px;
+}
+.one {
+	display: flex;
+}
+
+.one h3 {
+	float: left;
+}
+.one button {
+	float: right;
+	width: 80px;
+	
+	
+}
+
+.btns {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    left:300px;
+    top:30px;
+}
+
+.btns button {
+
+	margin: 0px 10px;
+}
+#qt,.close,#reset {
+
+	width: 180px;
+	border:none;
+	outline: none;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	
+}
+
+.total {
+	position: relative;
+	top: 50px;
+	text-align: center;
+}
+
+#heading {
+	text-align: center;
+}
+
+
+#date {
+	position: relative;
+	top:30px;
+}
+
+.responsive {
+	width: 300px;
+	position: relative;
+	right:0;
+	left: 100px;
+}
